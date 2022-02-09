@@ -65,7 +65,7 @@ void	*ft_print_memory(void *addr, unsigned int size)
 	while (i < size)
 	{
 		j = 7;
-		while (j > 0)
+		while (j >= 0)
 		{
 			ft_puthex((unsigned long long)(addr + i) >> j * 8 & 0xff);
 			j--;
