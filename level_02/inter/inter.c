@@ -27,7 +27,7 @@ int	main(int ac, char **av)
 			while(av[1][k])
 			{
 				if (av[1][i] == av[1][k])
-					av[1][k] = '1';
+					av[1][k] = ' ';
 				k++;
 			}
 			k = 0;
